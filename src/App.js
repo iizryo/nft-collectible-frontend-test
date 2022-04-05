@@ -16,7 +16,7 @@ function App() {
       console.log("Make sure you have MetaMask installed!!");
       return;
     } else {
-      console.log("Wallet exists! We're ready to go!");
+      console.log("Wallet exists! We're ready to go!!");
     }
 
     const accounts = await ethereum.request({ method: "eth_accounts" });

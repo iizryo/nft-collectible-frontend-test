@@ -34,7 +34,7 @@ function App() {
     const { ethereum } = window;
 
     if (!ethereum) {
-      alert("Please install MetaMask!");
+      alert("Please install MetaMask!!");
     }
 
     try {
